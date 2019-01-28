@@ -1,0 +1,10 @@
+
+for i in range(5):
+    print(i)
+
+
+for i in range(5, 10):
+    print(i)
+
+
+print(list(range(5)))
