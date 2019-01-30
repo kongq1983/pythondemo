@@ -1,4 +1,4 @@
-import math
+import mathdemo
 
 str = 'welcome to python';
 
@@ -31,11 +31,11 @@ str = "a1234567890"
 print(len(str))
 
 
-print(math.ceil(-5))
+print(mathdemo.ceil(-5))
 
-print(math.fabs(-5))
+print(mathdemo.fabs(-5))
 
-print(math.floor(-5))
+print(mathdemo.floor(-5))
 
 def myrepeat(self):
     self = '*' +self +'*'

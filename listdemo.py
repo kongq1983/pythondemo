@@ -52,3 +52,25 @@ print(list)
 #[9, 8, 7, 6, 5, 4, 3, 2]
 copyList = list.copy()
 print(copyList)
+
+
+print("-----------------------------------------------------------")
+
+squares = []
+for x in range(10):
+    squares.append(x**2)
+
+print(squares)
+
+squares = [x**2 for x in range(10)]
+print(squares)
+
+
+a = [-1, 1, 66.25, 333, 333, 1234.5]
+del a[0]
+#[1, 66.25, 333, 333, 1234.5]
+print(a)
+del a[:]
+print(a)
+#del a 释放资源 包括释放a变量
+del a
