@@ -49,3 +49,8 @@ print(s.upper())
 #True
 print(s.isalpha())
 
+# {'a', 'S', 'p', 'm'}
+print(set(s))
+
+for x in set(s):
+    print(x)
